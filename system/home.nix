@@ -11,14 +11,17 @@
   # Packages
   home.packages = with pkgs; [
 
-    # Browser
-    inputs.zen-browser.packages."${system}".default
+    	# Browser
+    	inputs.zen-browser.packages."${system}".default
 
 	# Editor
 	micro
 
 	# Social
 	equibop
+
+	# Tools
+	git
 	
   ];
 
